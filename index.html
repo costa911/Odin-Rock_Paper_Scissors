@@ -13,17 +13,19 @@
 
     <h1>Rock - Paper - Scissors</h1>
     <div class="choices">
+        <!--Buttons for player choices-->
         <button onclick="playGame('rock')"><img src="./Images/Rock.png" alt="Rock Image" </button>
             <button onclick="playGame('paper')"><img src=" ./Images/Paper.png" alt="Paper Image" </button>
                 <button onclick="playGame('scissors')"><img src=" ./Images/Scissors.png" alt="Scissors Image" </button>
     </div>
 
+    <!--Display player and computer choices-->
     <div id="playerDisplay">Player: </div>
     <div id="computerDisplay">Computer: </div>
     <div id="resultDisplay"></div>
 
+    <!--Display player and computer scores-->
     <div class="scoreDisplay">Player Score:<span id="playerScoreDisplay">0</span></div>
-
     <div class="scoreDisplay">Computer Score:<span id="computerScoreDisplay">0</span></div>
     <script src="index.js"></script>
 
